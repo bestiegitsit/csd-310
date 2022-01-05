@@ -1,0 +1,29 @@
+Customer
+
+{
+  "customer_id" : "Cid123456",
+  "first_name" : "Betty",
+  "last_name" : "Crocker",
+  "date_of_birth" : "10/21/1921",
+  "user_name" : "Bcrocker",
+  "Invoice" : [
+    {
+      "invoice_id" : "Iid234567",
+      "date_created" : "1/1/2022",
+      "date_shipped" : "1/5/2022",
+      "subtotal" : "10.10",
+     "Line_Item" : [
+      {
+        "line_item_id" : "Lid345678",
+        "name" : "cake mix",
+        "price" : "5.05",
+        "quantity" : "2",
+        
+      }
+      
+     ]
+    }
+   ]
+   
+   
+}
