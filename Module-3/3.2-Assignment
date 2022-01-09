@@ -1,0 +1,34 @@
+User
+
+{
+  "user_id" : "Uid123456",
+  "user_name" : "Bestie",
+  "date_of_birth" : "10/11/2002",
+  "email" : "bestie@gmail.com",
+ "link_user_role" : [
+   {
+     "user_id" : "Uid123456",
+     "role_no" : "R987654321",
+    "Role" : [
+      {
+        "role_no" : "R987654321",
+        "role_name" : "Penetration Tester",
+        "description" : "Ethical hacker",
+       "link_role_permission" : [
+         {
+           "permission_no" : "P45678",
+           "role_no" : "R987654321",
+          "permission" : [
+            {
+              "permission_no" : "P45678",
+              "permission_date" : "2/22/2019",
+              "permission_rule" : "user access granted",
+            }
+          ]
+         }
+       ]
+      }
+    ]
+   }
+ ]
+}
