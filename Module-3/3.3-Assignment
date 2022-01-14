@@ -1,11 +1,11 @@
-Author
-{
-  "author_id" : "Donoho, L x23",
-  "author_first_name" : "Luke",
-  "author_last_name" : "Donoho",
-  "author_phone" : "859-859-5959",
-  "author_email" : "readdonoho@gmail.com",
- "Book" : [
+"Author" : [
+ {
+   "author_id" : "Donoho, L x23",
+   "author_first_name" : "Luke",
+   "author_last_name" : "Donoho",
+   "author_phone" : "859-859-5959",
+   "author_email" : "readdonoho@gmail.com",
+  "Book" : [
     {
       "book_isbn" : "ABC12345x",
       "book_name" : "Databases 101",
@@ -20,5 +20,6 @@ Author
         }
      ]
     }
- ]
-}
+  ]
+ }
+]
