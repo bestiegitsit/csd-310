@@ -1,0 +1,24 @@
+Author
+{
+  "author_id" : "Donoho, L x23",
+  "author_first_name" : "Luke",
+  "author_last_name" : "Donoho",
+  "author_phone" : "859-859-5959",
+  "author_email" : "readdonoho@gmail.com",
+ "Book" : [
+    {
+      "book_isbn" : "ABC12345x",
+      "book_name" : "Databases 101",
+      "book_price" : "25.00",
+      "author_id" : "Donoho, L x23",
+      "publisher_code" : "BellevueU1234"
+     "Publisher" : [
+        {
+          "publisher_code" : "BellevueU1234",
+          "publisher_name" : "Bellevue U",
+          "publisher_address" : "1000 Galvin Rd S, Bellevue, NE 68005"
+        }
+     ]
+    }
+ ]
+}
