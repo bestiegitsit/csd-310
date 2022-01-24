@@ -1,0 +1,27 @@
+"Student" : [
+   {
+      "student_id" : "Sid123456",
+      "first_name" : "Ashley",
+      "last_name" : "Tharp",
+    "Course" : [
+       {
+          "course_id" : "CYBR410",
+          "description" : "Database Security",
+          "instructor" : "Luke Donoho",
+          "grade" : "A",
+          "student_id" : "Sid123456",
+        "Enrollment" : [
+           {
+              "enrollment_id" : "W2021",
+              "term" : "Winter",
+              "gpa" : "4.0",
+              "Start_date" : "11/29/2021",
+              "end_date" : "3/5/2022",
+              "course_id" : "CYBR410",
+              "student_id" : "Sid123456"
+           }
+        ]
+       }
+    ]
+   }
+]
