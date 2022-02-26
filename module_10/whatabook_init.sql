@@ -63,7 +63,7 @@ INSERT INTO user(first_name, last_name)
 INSERT INTO user(first_name, last_name)
     VALUES('Bilbo', 'Bagging');
 INSERT INTO user(first_name, last_name)
-    VALUES('Frodo', "Baggins');
+    VALUES('Frodo', 'Baggins');
 
 INSERT INTO wishlist(user_id, book_id)
     VALUES (
