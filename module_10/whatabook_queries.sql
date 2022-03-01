@@ -29,4 +29,4 @@ INSERT INTO wishlist(user_id, book_id)
     VALUES(1, 9)
 
 /* remove a selected book from the user's wishlist */
-DELETE FROM wishlist WHERE user_id = 1 AND book_id = 4;
+DELETE FROM wishlist WHERE user_id=1 AND book_id=9;
