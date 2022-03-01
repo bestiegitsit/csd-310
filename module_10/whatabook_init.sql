@@ -30,7 +30,7 @@ CREATE TABLE user (
 CREATE TABLE wishlist (
     wishlist_id INT NOT NULL AUTO_INCREMENT,
     user_id INT NOT NULL,
-    book_id INT NOT NULL,
+    book_id INT,
     PRIMARY KEY (wishlist_id),
     CONSTRAINT fk_book FOREIGN KEY (book_id) REFERENCES book(book_id),
     CONSTRAINT fk_user FOREIGN KEY (user_id) REFERENCES user(user_id)
