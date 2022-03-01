@@ -4,9 +4,9 @@
 # description: WhatABook program
 
 # import statements
-import sys
 import mysql.connector 
 from mysql.connector import errorcode
+import sys
 
 
 config = {  # config database object
