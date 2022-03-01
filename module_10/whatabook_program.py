@@ -6,15 +6,15 @@
 # import statements
 import sys
 import mysql.connector 
-from mysql.connector import Error
+from mysql.connector import errorcode
 
 
 config = {  # config database object
-    "user" : "whatabook_user",
-    "password" : "MySQL8IsGreat!",
-    "host" : "127.0.0.1",
-    "database" : "whatabook",
-    "raise_on_warnings" : True
+    'user' : 'whatabook_user',
+    'password' : 'MySQL8IsGreat!',
+    'host' : '127.0.0.1',
+    'database' : 'whatabook',
+    'raise_on_warnings' : True
 }
 
 def show_menu():  # main menu options
