@@ -1,9 +1,10 @@
-'''
+/*
 Title: whatabook_program_queries.sql
 Author: Ashley Tharp
 Date: 28 February 2022
 description: WhatABook program queries
-'''
+*/
+
 /* select query to view a users wishlist items */
 SELECT user.user_id, user.first_name, user.last_name, book.book_id, book.book_name, book.author
 FROM wishlist
