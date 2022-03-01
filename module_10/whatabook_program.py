@@ -1,9 +1,7 @@
-'''
-Title: whatabook_program.py
-Author: Ashley Tharp
-Date: 28 February 2022
-description: WhatABook program
-'''
+# Title: whatabook_program.py
+# Author: Ashley Tharp
+# Date: 28 February 2022
+# description: WhatABook program
 
 # import statements
 import sys
