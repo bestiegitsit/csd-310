@@ -8,8 +8,8 @@ import sys
 import mysql.connector 
 from mysql.connector import errorcode
 
-# config database object
-config = {
+
+config = {  # config database object
     "user" : "whatabook_user",
     "password" : "MySQL8IsGreat!",
     "host" : "127.0.0.1",
